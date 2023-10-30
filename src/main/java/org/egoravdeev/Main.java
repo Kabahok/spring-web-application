@@ -24,6 +24,6 @@ public class Main {
         tomcat.addWebapp("", ".");
 
         tomcat.start();
-//        tomcat.getServer().await();
+        tomcat.getServer().await();
     }
 }
